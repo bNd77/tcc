@@ -7,7 +7,7 @@
    $nome_mae = $_POST['nome_mae'];
    $endereco = $_POST['endereco'];
    $escola = $_POST['escola'];
-   $ano = $_POST['ano'];
+   $ano = $_POST['ano']; 
    $data_nascimento = $_POST['data_nascimento'];
    $genero = $_POST['genero'];
    

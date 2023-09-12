@@ -226,7 +226,7 @@
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/usuario.png" alt="..." />
                         <h4>nome </h4>
-                        <p class="text-muted">Alguma info a mais</p>
+                        <p class="text-muted">Sobre mim:</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>

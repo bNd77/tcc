@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $cpf = $_POST["cpf"];
     $nome = $_POST["nome"];
     $nome_pai = $_POST["nome_pai"];
-    $nome_mae = $POST["nome_mae"];
+    $nome_mae = $_POST["nome_mae"];
     $endereco = $_POST["endereco"];
     $escola = $_POST["escola"];
     $ano = $_POST["ano"];
@@ -109,7 +109,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
               <div class="input-group">
                     <div class="input-box">
-                        <label for="">Cpf</label>
+                        <label for="cpf">Cpf</label>
                         <input id="cpf" type="text" name="cpf" value="<?php echo $cpf; ?>">
                     </div>
 

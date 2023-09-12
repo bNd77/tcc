@@ -16,6 +16,7 @@
             <thead>
                 <tr>
                     <th>Nome</th>   
+                    <th>Opções</th>
                 </tr>
             </thead>
             <tbody>

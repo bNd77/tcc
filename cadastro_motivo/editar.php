@@ -61,7 +61,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (mysqli_num_rows($resultado) == 1) {
         $row = mysqli_fetch_assoc($resultado);
         $nome = $row["nome"];
-        
     } else {
         echo "Registro não encontrado.";
         exit();
@@ -97,19 +96,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="login-button">
                         <button><a href="dashboard.php" class="bi bi-box-arrow-left btn btn-danger">Sair</a></button>
                     </div>
-                    
+
                 </div>
-                
+
                 <div class="input-group">
                     <div class="input-box">
                         <label for="nome">Nome:</label>
                         <input type="text" name="nome" value="<?php echo $nome; ?>">
                     </div>
-</div><div class="continue-button">
+                </div>
+                <div class="continue-button">
                     <button type="submit"><a>Editar</a> </button>
                 </div>
 
-                
+
             </form>
 </body>
 

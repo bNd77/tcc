@@ -47,7 +47,7 @@
     <!-- Inicio-->
     <header class="masthead" id="inicio">
         <div class="container">
-            <div class="masthead-subheading">Bem vindo ao Sistema de denuncias online do Conselho Tutelar de</div>
+            <div class="masthead-subheading">Bem-vindo ao Sistema de denuncias online do Conselho Tutelar de</div>
             <div class="masthead-heading text-uppercase">São Borja</div>
             <a class="btn btn-danger btn-xl text-uppercase" href="#formulario">denuncie já</a>
         </div>
@@ -206,7 +206,7 @@
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/img/team/usuario.png" alt="..." />
                         <h4>Nome</h4>
-                        <p class="text-muted">alguma info a mais</p>
+                        <p class="text-muted">Sobre mim:</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -234,7 +234,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center">
-                        <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                        <p class="large text-muted"></p>
                     </div>
                 </div>
             </div>
@@ -268,6 +268,14 @@
                         <a class="btn btn-dark btn-social mx-2" href="https://wa.me/555599863968" aria-label="Whatsapp CT"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
+                <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Bernardo Gomes Dorneles 2023</span>
+                    </div>
+                </div>
+            </footer>
+                
 
                 <!-- Bootstrap core JS-->
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

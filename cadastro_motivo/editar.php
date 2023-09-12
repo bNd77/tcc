@@ -84,27 +84,32 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <div class="container">
         <div class="form-image">
-            <img src="assets/img//conselho-tutelar.jpg" alt="">
+            <img src="assets/img/conselho-tutelar.jpg" alt="">
         </div>
         <div class="form">
             <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 
                 <input type="hidden" name="id" value="<?php echo $id; ?>">
-
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Adicionar Motivos</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="dashboard.php" class="bi bi-box-arrow-left btn btn-danger">Sair</a></button>
+                    </div>
+                    
+                </div>
                 
                 <div class="input-group">
                     <div class="input-box">
                         <label for="nome">Nome:</label>
                         <input type="text" name="nome" value="<?php echo $nome; ?>">
                     </div>
-                
-                <div class="continue-button">
-                    <button type="submit" value="Atualizar" style="color:white">Atualizar</button>
+</div><div class="continue-button">
+                    <button type="submit"><a>Editar</a> </button>
                 </div>
 
-                <div class="continue-button">
-                    <button><a href="dashboard.php">sair</a></button>
-                </div>
+                
             </form>
 </body>
 

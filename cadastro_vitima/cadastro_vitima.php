@@ -18,7 +18,7 @@
      VALUES ('$cpf', '$nome', '$nome_pai', '$nome_mae', '$endereco', '$escola', '$ano', '$data_nascimento', '$genero')";
 
      if (mysqli_query($conn, $sql)) {
-        header("location: ../index.php");
+        header("location: dashboard.php");
      } else{
      echo "$cpf NÃO foi cadastrado";
      }

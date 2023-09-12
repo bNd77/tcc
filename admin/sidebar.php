@@ -23,7 +23,6 @@ Este arquivo contem os elementos do menu, separados do restante do código-->
                     <i class="fas fa-exclamation-triangle"></i> Denúncias
                 </a>
                 <ul class="collapse list-unstyled" id="denuncias">
-                    <li><a href="#">Novo </a></li>
                     <li><a href="../cadastro_denuncias/dashboard.php">Gerenciar </a></li>
 
                 </ul>

@@ -3,12 +3,12 @@
 * Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
 */
-//
-// Scripts
 // 
+// Scripts 
+//  
 
 window.addEventListener('DOMContentLoaded', event => {
-
+ 
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');

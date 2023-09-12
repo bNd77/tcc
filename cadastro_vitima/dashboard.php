@@ -8,9 +8,10 @@ if (empty($_SESSION)) {
 <html>
 
 <head>
-    <title>Tabela Bootstrap com dados do MySQL</title>
+    <title>Tabela Listagem de vitimas</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.jpg" />
 </head>
 
 <body>

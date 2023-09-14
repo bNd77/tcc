@@ -41,6 +41,21 @@
                     </div>
 
                     <div class="input-box">
+                        <label for="text">foto</label>
+                        <input id="foto" type="text" name="foto" placeholder="foto">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="sobre">Sobre</label>
+                        <input id="sobre" type="text" name="sobre" placeholder="escreva sobre sua carreira como conselheiro">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="mandato">Mandato</label>
+                        <input id="mandato" type="text" name="mandato" placeholder="" required>
+                    </div>
+
+                    <div class="input-box">
                         <label for="password">Senha</label>
                         <input id="senha" type="password" name="senha" placeholder="Digite sua Senha" required>
                     </div>

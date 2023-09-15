@@ -15,7 +15,8 @@
         <table class="table table-striped table-bordered table-group-divider">
             <thead>
                 <tr>
-                    <th>Nome</th>   
+                    <th>Nome</th>
+                    <th>Opções</th>   
                 </tr>
             </thead>
             <tbody>

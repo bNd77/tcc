@@ -42,7 +42,7 @@
 
                     <div class="input-box">
                         <label for="text">foto</label>
-                        <input id="foto" type="text" name="foto" placeholder="foto">
+                        <input id="foto" type="file" name="foto" placeholder="">
                     </div>
 
                     <div class="input-box">
@@ -52,7 +52,7 @@
 
                     <div class="input-box">
                         <label for="mandato">Mandato</label>
-                        <input id="mandato" type="text" name="mandato" placeholder="" required>
+                        <input id="mandato" type="text" name="mandato" placeholder="ex:2020/23" required>
                     </div>
 
                     <div class="input-box">
